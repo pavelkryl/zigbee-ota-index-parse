@@ -38,7 +38,7 @@ def parse_index_copy_firmware_files(zigbee_ota_dir: str, destination_dir: str):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print("""expecting two arguments:
               [1] - source directory where contents of zigbee-OTA is checked out
               [2] - destination directory where to put the firmware files
